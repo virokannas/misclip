@@ -11,7 +11,9 @@ As annoying as it is, if the video clip used in a synchronize clip doesn't have 
 To use the script, simply run:
 
 ```
-misclip.py <path_to_fcpxml file>
+misclip.py <path to fcpxml file>
 ```
+
+Tthe output file(s) will be suffixed with ```_resized``` so that your original file stays safe.
 
 Or, you can install the "Run misclip" workflow under your ~/Library/Services and use it as a quick action in Finder. Just select all your fcpxml files, right-click and choose "Run misclip" from Quick Actions.
